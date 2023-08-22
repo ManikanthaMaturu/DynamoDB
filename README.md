@@ -7,10 +7,9 @@ Sure, here's the provided content formatted in Markdown:
 Clone the project repository by running the following command:
 
 sh
-git clone https://github.com/username/project.git
+git clone "http link"
 
 
-Replace `username` with the actual username and `project` with the project name.
 
 Move into the cloned project directory:
 
@@ -45,16 +44,10 @@ Install the required packages using the `requirements.txt` file:
 sh
 pip install -r requirements.txt
 
-
-## Configuration
-
-Copy the configuration template file if provided:
-
 sh
-cp config_template.ini config.ini
 
+You have to provide your AWS credentials in this path "\project\aws.py"
 
-Modify the `config.ini` file with your configuration settings.
 
 ## Running the Project
 
@@ -68,4 +61,3 @@ sh
 deactivate
 
 
-Feel free to use this Markdown content as needed.
