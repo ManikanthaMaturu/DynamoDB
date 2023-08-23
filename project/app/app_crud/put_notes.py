@@ -35,7 +35,7 @@ class InsertDataintoDynamoDB(generics.GenericAPIView):
 
             
             # def put_movie(title, year, plot, rating):
-            result = client.put_item(    TableName='Movies',
+            result = client.put_item(    TableName='dynamodb',
             Item={
                     'noteid': {
                         'N': "{}".format(noteid),
