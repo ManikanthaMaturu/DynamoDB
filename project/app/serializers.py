@@ -23,3 +23,17 @@ class CreteNotesSerializers(serializers.Serializer):
         data['updatedAt'] = datetime.now()
         return data
     
+
+class GetAllNotesSerializers(serializers.Serializer):
+    noteid = serializers.CharField(max_length=100)
+    title = serializers.CharField(max_length=100)
+    content = serializers.CharField(max_length=100)
+
+    createdAt = serializers.DateTimeField(read_only=True)
+    updatedAt = serializers.DateTimeField(read_only=True)
+
+class GetNotesSerializer(serializers.Serializer):
+    noteid = serializers.CharField(max_length=100)
+   
+    
+    

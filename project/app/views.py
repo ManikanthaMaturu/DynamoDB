@@ -11,6 +11,12 @@ from django.shortcuts import render
 
 from app.app_crud.create_table import CreateNoteTablePost
 from app.app_crud.put_notes import InsertDataintoDynamoDB
+from app.app_crud.get_notes import GetNotes
+from app.app_crud.get_all_notes import GetAllNotes
+from app.app_crud.update_notes import UpdateNotes
 
 CreateNoteTablePost()
 InsertDataintoDynamoDB()
+GetNotes()
+GetAllNotes()
+UpdateNotes()
