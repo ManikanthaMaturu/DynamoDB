@@ -55,6 +55,10 @@ You're all set up! Now you can run the project using the provided scripts or com
 
 ## Deactivating the Virtual Environment
 
+## First have to create table in DynamoDB using url /app/CreateNotesTable/  (For this project take db name as "dynamodb")
+
+## Later You can do Create, Get, Update, GetAll operations
+
 Once you're done using the project, you can deactivate the virtual environment by running:
 
 sh
