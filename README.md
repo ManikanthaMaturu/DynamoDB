@@ -59,6 +59,8 @@ You're all set up! Now you can run the project using the provided scripts or com
 
 ## Later You can do Create, Get, Update, GetAll operations
 
+you can see the output in your Terminal
+
 Once you're done using the project, you can deactivate the virtual environment by running:
 
 sh
